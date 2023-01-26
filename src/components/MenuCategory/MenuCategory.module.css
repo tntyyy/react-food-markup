@@ -16,7 +16,7 @@
   cursor: pointer;
 }
 
-.item:first-child {
+.selected {
   background-color: var(--yellow-color);
   color: var(--white-color);
 }
