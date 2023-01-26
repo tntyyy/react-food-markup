@@ -1,0 +1,14 @@
+.btn {
+    padding: 18px 80px;
+    color: var(--white-color);
+    background-color: var(--yellow-color);
+    text-decoration: none;
+
+    font-size: 28px;
+    font-weight: 500px;
+
+    cursor: pointer;
+    border-radius: 100px;
+
+    box-shadow: 0px 0px 20px -5px #FE8C01;
+}

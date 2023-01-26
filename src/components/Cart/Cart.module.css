@@ -1,0 +1,18 @@
+.cart {
+    cursor: pointer;
+    position: relative;
+}
+
+.cart::before {
+    position: absolute;
+    content: "12";
+    width: 36px;
+    height: 30px;
+    background-color: var(--yellow-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -35px;
+    right: -20px;
+    border-radius: 50px;
+}

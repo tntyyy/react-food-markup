@@ -1,0 +1,30 @@
+.main {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+
+  color: #232323;
+
+  position: relative;
+  text-align: center;
+}
+
+.title::after {
+  position: absolute;
+  content: "";
+  max-width: 280px;
+  width: 100%;
+  height: 8px;
+  background-color: var(--yellow-color);
+  border-radius: 50px;
+
+  bottom: -10px;
+  left: 40%;
+}

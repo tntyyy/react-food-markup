@@ -1,0 +1,32 @@
+.item {
+  box-sizing: border-box;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+
+  max-width: 250px;
+  width: 100%;
+
+  background-color: #e9f8fb;
+  border-radius: var(--radius);
+
+  cursor: pointer;
+}
+
+.item:first-child {
+  background-color: var(--yellow-color);
+  color: var(--white-color);
+}
+
+.item p {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.selected {
+  background-color: var(--yellow-color);
+}
