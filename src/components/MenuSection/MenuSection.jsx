@@ -16,7 +16,7 @@ const MenuSection = () => {
     <section className={styles.main}>
         <h2 className={styles.title}>Наше Меню</h2>
         <MenuCategories selectedCategory={selectedCategory} handleChangeSelectedCategory={handleChangeSelectedCategory}/>
-        <MenuList />
+        <MenuList selectedCategory={selectedCategory} />
         <Button path={"#"} type="secondary">Показать ещё</Button>
     </section>
   )
